@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LingoRefresh</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<!-- Link to AOS CSS and JavaScript files in the head section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo" >
+            <img src="../figma/images/logo.png" alt="LingoRefresh Logo">
+            <div class="logo-text">
+                <h1>Lingo<span>Refresh</span></h1>
+                <p>Refresh your spoken English</p>
+            </div>
+        </div>  
+        <nav class="desktop-nav">
+            <a href="home.html">Home</a>
+            <a href="#why_english">Why English Matters</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#pricing">Pricing</a>
+            <a href="about us.html">About Us</a>
+            <a href="R&D.html">R&D </a>
+
+			<a href="https://wa.me/919884253654?text=I%20am%20interested%20in%20the%20demo%20class!" target="_blank" style="color:white;">
+    <button class="free-demo">Demo Class</button>
+</a>
+
+        </nav>
+        <button class="hamburger" onclick="toggleSidebar()">&#9776;</button>
+    </header>
+
+    <!-- Side Navigation (Hidden on Desktop) -->
+    <aside id="sidebar">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#why_english">Why English Matters</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#pricing">Pricing</a>
+            <a href="about us.html">About Us</a>
+            <a href="R&D.html">R&D </a>
+           <a href="lingorefresh.com/lingorefresh/" class="free-demo" style="color:white;padding-inline-start: 61px;">Free Demo</a>
+
+        </nav>
+    </aside>
+	
+	<section class="content-section2">
+    <div class="text-container">
+ <h1>Now, anyone can speak English easily & confidently, requiring minimal effort.</h1>
+            <p>With our unique methodology, we've transformed learning Spoken English from something as 
+			complex  as rocket science into a simple, enjoyable experience—like sipping a cup of tea.</p>
+	            <div class="buttons">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=softwarelearning779@gmail.com&su=Job%20Application&body=Dear%20HR,%0D%0A%0D%0APlease%20find%20my%20resume%20attached%20for%20your%20review.%0D%0A%0D%0AThank%20you,%0D%0A[Your%20Name]" 
+           target="_blank" class="btn btn-primary"><button class="demo-btn">Free Demo</button></a>
+                <button class="courses-btn">Explore Courses</button>
+            </div>
+        </div>
+    <div class="image-container">
+      <img src="../figma/images/fourimage.png" alt="App Design" class="lingo-img"/>
+    </div>
+  </section>
+   
+   <section class="research-section">
+    <div class="container1" style="color: #ff7043;">
+      <h2 class="section-title">English: A Life Skill, Not Just a Language</h2>
+      <div class="cards" style="gap:0px;">
+        <div class="card1" style="background-color: #e6f7ff;">
+          <div class="icon" style="background-color: #a8e6cf;">💹</div>
+          <h3 class="card-title">Unlock-Life</h3>
+          <p class="card-description">Opportunities depend on income</p>
+        </div>
+		 <span class="arrow" style="margin-top:60px;">&gt;</span>
+        <div class="card1" style="background-color: #e6f7ff;">
+          <div class="icon" style="background-color: #dcedc1;">📄</div>
+          <h3 class="card-title">Revenue</h3>
+          <p class="card-description">Income is fueled by knowledge</p>
+        </div>
+		 <span class="arrow" style="margin-top:60px;">&gt;</span>
+        <div class="card1" style="background-color: #e6f7ff;">
+          <div class="icon" style="background-color: #ffd3b6;">🔄</div>
+          <h3 class="card-title">Knowledge</h3>
+          <p class="card-description">Knowledge often hinges on English proficiency</p>
+        </div>
+		 <span class="arrow" style="margin-top:60px;">&gt;</span>
+        <div class="card1" style="background-color: #e6f7ff;">
+          <div class="icon" style="background-color: #ffaaa5;">📊</div>
+          <h3 class="card-title">English</h3>
+          <p class="card-description">English proficiency improved alot!!!hingest Student</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="insight-padding">
+  <div class="insight-card" style="background: #a8e6cf;">
+    <!-- Left Section -->
+    <div class="left-section">
+      <div class="icon-container">
+        <i class="fas fa-university"></i>
+      </div>
+      <h3>Establish Why Solving <br>This Issue Matters Globally</h3>
+    </div>
+
+    <!-- Vertical Line -->
+    <div class="vertical-line"></div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <p>Many people view English merely as a school subject or another language. 
+        However, we believe this perspective underestimates its true value. 
+        English is not just a means of communication; it is a life-changing skill 
+        that opens up a world of opportunities.Many see English as a subject, but we see it as a transformative skill; 
+        Connecting Life, Revenue, Knowledge, and Opportunity.</p>
+    </div>
+  </div>
+  </section>
+  
+        <div class="container6-rd" >
+    <h2 >Results & <span> Outcomes</span></h2>
+    <p class="description7-rd">
+      Our Spoken English program has achieved outstanding results, especially in rural areas with limited access to quality education. 
+      After a successful pilot with 10 participants, we expanded to over 100 students, yielding impressive outcomes.
+    </p>
+    <div class="results-container">
+      <!-- Card 1 -->
+      <div class="result-card" style="background-color: #f2f5fa;">
+        <div class="progress-circle" data-percent="95" data-color="#fbb03b">
+          <svg>
+            <circle class="progress-bg" cx="60" cy="60" r="54"></circle>
+            <circle class="progress-bar" cx="60" cy="60" r="54"></circle>
+          </svg>
+          <div class="percentage">0%</div>
+        </div>
+        <h3 class="result-title">Fluency Improvement</h3>
+        <p class="result-description">Students showed significant fluency gains within 6 weeks.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="result-card" style="background-color: #f2f5fa;">
+        <div class="progress-circle" data-percent="85" data-color="#00aeef">
+          <svg>
+            <circle class="progress-bg" cx="60" cy="60" r="54"></circle>
+            <circle class="progress-bar" cx="60" cy="60" r="54"></circle>
+          </svg>
+          <div class="percentage">0%</div>
+        </div>
+        <h3 class="result-title">Confidence Boost</h3>
+        <p class="result-description">Reported increased confidence in speaking English.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="result-card" style="background-color: #f2f5fa;">
+        <div class="progress-circle" data-percent="90" data-color="#00c853">
+          <svg>
+            <circle class="progress-bg" cx="60" cy="60" r="54"></circle>
+            <circle class="progress-bar" cx="60" cy="60" r="54"></circle>
+          </svg>
+          <div class="percentage">0%</div>
+        </div>
+        <h3 class="result-title">Practical Application</h3>
+        <p class="result-description">Applied their skills in real-life settings.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="result-card" style="background-color: #f2f5fa;">
+        <div class="progress-circle" data-percent="90" data-color="#00c853">
+          <svg>
+            <circle class="progress-bg" cx="60" cy="60" r="54"></circle>
+            <circle class="progress-bar" cx="60" cy="60" r="54"></circle>
+          </svg>
+          <div class="percentage">0%</div>
+        </div>
+        <h3 class="result-title">High Engagement</h3>
+        <p class="result-description">Retention rate, with strong participation and enthusiasm throughout the course.</p>
+      </div>
+    </div>
+  </div>
+  
+  <section class="testimonials-section">
+    <h1>Success Stories & Testimonials</h1>
+    <div class="video-grid">
+      <!-- Video Card 1 -->
+      <div class="video-card">
+        <video controls>
+          <source src="video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Video Card 2 -->
+      <div class="video-card">
+        <video controls>
+          <source src="video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Video Card 3 -->
+      <div class="video-card">
+        <video controls>
+                <source id="video-source" src="../figma to html/videos/video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Video Card 4 -->
+<div class="video-card">
+  <iframe 
+    src="https://www.youtube.com/embed/exampleVideoID" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+  </section>
+
+<div class="container6-rd">
+    <h2>Key Features of <span>LingoRefresh</span></h2>
+    <div class="features-container">
+      <!-- Card 1 -->
+      <div class="feature-card">
+        <img src="../figma/images/image11.png" alt="Icon 1">
+        <h3 class="feature-title">Effortless Learning</h3>
+        <p class="feature-description">We prioritize rural students, ensuring our training is simple and effective.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="feature-card">
+        <img src="../figma/images/image8.png" alt="Icon 2">
+        <h3 class="feature-title">Systematic Teaching Model</h3>
+        <p class="feature-description">To tackle variability in teaching quality, our structured system guarantees consistent quality for all students, independent of individual instructors.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="feature-card">
+        <img src="../figma/images/image9.png" alt="Icon 3">
+        <h3 class="feature-title">Practical Oriented</h3>
+        <p class="feature-description">Our course dedicates 95% of the time to hands-on practice, essential for achieving fluency and real-world application.</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="feature-card">
+        <img src="../figma/images/image10.png" alt="Icon 4">
+        <h3 class="feature-title">Flexible Online Training</h3>
+        <p class="feature-description">We offer learners the freedom to choose their training schedule, addressing time and travel challenges.</p>
+      </div>
+      <!-- Card 5 -->
+      <div class="feature-card">
+        <img src="../figma/images/image11.png" alt="Icon 5">
+        <h3 class="feature-title">Comprehensive Post-Course Support</h3>
+        <p class="feature-description">Our software includes a vast library of resources—text, audio, and video—to enhance vocabulary, reading, writing, and pronunciation skills.</p>
+      </div>
+      <!-- Card 6 -->
+      <div class="feature-card">
+        <img src="../figma/images/image12.png" alt="Icon 6">
+        <h3 class="feature-title">Real-Time Progress Tracking</h3>
+        <p class="feature-description">Students and parents can monitor progress anytime through personalized logins, as all tasks and practice sessions are recorded.</p>
+      </div>
+    </div>
+  </div>
+	
+<section class="research-section">
+    <div class="container1">
+      <h2 class="section-title">Research and Development Coverage</h2>
+      <div class="cards">
+        <div class="card1">
+          <div class="icon" style="background-color: #a8e6cf;">💹</div>
+          <h3 class="card-title">Study Demographics</h3>
+          <p class="card-description">500 students, 150 educators, from diverse urban and rural backgrounds.</p>
+        </div>
+        <div class="card1">
+          <div class="icon" style="background-color: #dcedc1;">📄</div>
+          <h3 class="card-title">Review of Existing Pedagogical Methods</h3>
+          <p class="card-description">Grammar-Translation, Audio-Lingual, Immersion methods.</p>
+        </div>
+        <div class="card1">
+          <div class="icon" style="background-color: #ffd3b6;">🔄</div>
+          <h3 class="card-title">Language Learning Strategies Examined</h3>
+          <p class="card-description">Reading, Watching, Speaking Exercises.</p>
+        </div>
+        <div class="card1">
+          <div class="icon" style="background-color: #ffaaa5;">📊</div>
+          <h3 class="card-title">Performance Classifications</h3>
+          <p class="card-description">Fluent, Active, and Non-successful Learners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="testimonial-section" style="background-color:#FCF3E1;">
+        <h2 class="section-title">What students say about our platform</h2>
+        <div class="testimonial-container">
+            <button class="arrow1 arrow-left">&larr;</button>
+            <div class="testimonial-card">
+                <h3 class="testimonial-title">Title of the text review from the person</h3>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie sit
+					amet mi vitae dapibus. Vestibulum odio risus, euismod quis lorem eu, elementum rutrum lorem.
+                </p>
+                <p class="testimonial-author">Name of the person</p>
+                <p class="testimonial-designation">Designation, Organisation</p>
+            </div>
+            <div class="testimonial-card">
+                <h3 class="testimonial-title">Title of the text review from the person</h3>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie sit amet mi vitae dapibus. 
+					
+					Vestibulum odio risus, euismod quis lorem eu, elementum rutrum lorem.
+                </p>
+                <p class="testimonial-author">Name of the person</p>
+                <p class="testimonial-designation">Designation, Organisation</p>
+            </div>
+            <div class="testimonial-card">
+                <h3 class="testimonial-title">Title of the text review from the person</h3>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie sit amet mi vitae dapibus. 
+					Vestibulum odio risus, euismod quis lorem eu, elementum rutrum lorem.
+                </p>
+                <p class="testimonial-author">Name of the person</p>
+                <p class="testimonial-designation">Designation, Organisation</p>
+            </div>
+            <button class="arrow1 arrow-right">&rarr;</button>
+        </div>
+
+    </section>
+
+
+    </section>
+	
+	   <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-text">
+                <h3>Empowering Communication, Expanding Horizons</h3>
+                <p>Get in touch with us today to refresh your spoken English skills!</p>
+            </div>
+            <a href="#" class="cta-button2">Book a <strong>Free Demo</strong></a>
+        </div>
+    </section>
+	
+	<!-- Footer Section -->
+ <footer class="footer">
+  <div class="footer-wrapper">
+    <!-- Logo and Description -->
+	<div class="footer-address">
+    <div class="footer-logo">
+      <img src="../figma/images/logo.png" alt="LingoRefresh Logo" class="logo">
+      <div>
+        <h3>LingoRefresh</h3>
+        <p class="tagline">Refresh your spoken english</p>
+        <p class="description">
+          Elevate your spoken english skills with our dynamic e-learning platform. Dive into a world 
+		  of interactive courses, personalized learning, and limitless possibilities that 
+		  unlock your potential, one lesson at a time.
+        </p>
+      </div>
+    </div>
+
+    <!-- Address Columns -->
+    
+      <div>
+        <h4>Bangalore</h4>
+        <p>No. 343, Sierra Cartel, 9th Main Rd, Sector 7, HSR Layout, Bengaluru, Karnataka 560102</p>
+        <p>+91-63744-86175</p>
+        <p>bnadmin@praistma.com</p>
+      </div>
+      <div>
+        <h4>Aruppukottai</h4>
+        <p>No.242, 3rd Floor, Dharma Complex, Madurai Road, Aruppukottai 626101</p>
+        <p>+91-98842-53654</p>
+        <p>apkadmin@praistma.com</p>
+      </div>
+      <div>
+        <h4>Chennai</h4>
+        <p>No. 37/21, R. S Sridhar Salai (Opp to IOB Bank), Kotturpuram, Chennai 600 085</p>
+        <p>+91-63749-23526</p>
+        <p>chnadmin@praistma.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+  
+
+    <script src="script.js"></script>
+	<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
